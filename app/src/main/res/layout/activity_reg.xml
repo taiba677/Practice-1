@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".RegistrationActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="17dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"/>
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/sign_up_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:onClick="onSignUpClick"/>
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:onClick="onLoginClick"/>
+    </LinearLayout>
+
+</LinearLayout>

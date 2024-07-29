@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:id="@+id/opthome"
+    android:title="Home"
+    android:icon="@drawable/home"/>
+    <item android:id="@+id/optservi"
+        android:title="Services"
+        android:icon="@drawable/services"/>
+    <item android:id="@+id/optsett"
+        android:title="Settings"
+        android:icon="@drawable/settings"
+        />
+    <item android:id="@+id/optlog"
+        android:title="Logout"
+        android:icon="@drawable/logout"/>
+
+
+</menu>
